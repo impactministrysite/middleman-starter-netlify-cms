@@ -1,5 +1,13 @@
-nav_items: 
-  - {label: 'Home', path: '/'}
-  - {label: 'Products', path: '/products/'}
-  - {label: 'News', path: '/news'}
-
+nav_items:
+  - label: Home
+    path: /
+  - label: About
+    path: /about/
+  - label: Board
+    path: /board/
+  - label: Ministries
+    path: /programs/
+  - label: News
+    path: /news/
+  - label: Donate
+    path: /donate/

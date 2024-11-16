@@ -1,0 +1,24 @@
+.programs {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background-color: $background-primary-color;
+
+  h2 {
+    margin: 0 0 30px;
+  }
+
+  .program {
+    @extend %column;
+    @extend %col-sm-4;
+    @extend %program;
+  }
+
+  @media screen and (max-width: $screen-xs-max) {
+    padding-top: 15px;
+    padding-bottom: 15px;
+
+    h2 {
+      margin: 0 0 15px;
+    }
+  }
+}

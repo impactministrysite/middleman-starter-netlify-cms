@@ -1,11 +1,12 @@
 ---
-title: Kaldi - Middleman + Netlify CMS Example
+title: Impact Ministry
 ---
 
 section.hero style=background_image(image_path(data.pages.home.hero.image))
   .caption
     .row
       h1 = data.pages.home.hero.title
+      h2 = data.pages.home.hero.subtitle
 
 section.homepage-story
   .container
@@ -13,17 +14,17 @@ section.homepage-story
       .story-content
         = markdown data.pages.home.story
 
-section.homepage-products.products
+section.homepage-programs.programs
   .container
     h2
-      | Products
+      | Ministries
     .row
-      //product is structured: ['filename', 'data']
-      //sort by newest product
-      - data.products.sort {|(_filename_a, a),(_filename_b, b)| b.date <=> a.date}.first(3).each do | _filename, product |
+      //program is structured: ['filename', 'data']
+      //sort by newest program
+      - data.programs.sort {|a,b| b[1].date <=> a[1].date}.first(3).each do | program |
 
         //to get the actual data:
-        = partial 'partials/products/product', locals: {product: product}
+        = partial 'partials/programs/program', locals: {program: program[1]}
 
 section.homepage-news.news
   .container

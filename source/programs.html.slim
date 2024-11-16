@@ -1,0 +1,15 @@
+---
+title: Ministries | Impact Ministry
+---
+
+section.programs
+  .container
+    h2
+      | Ministries
+    .row
+      //ministry is structured: ['filename', 'data']
+      //sort by newest ministry
+      - data.programs.sort {|a,b| b[1].date <=> a[1].date}.each do | program |
+
+        //to get the actual data:
+        = partial 'partials/programs/program', locals: {program: program[1]}

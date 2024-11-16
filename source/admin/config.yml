@@ -8,11 +8,11 @@ public_folder: /images/uploads
 
 collections:
   #yaml middleman data example
-  - name: product
-    label: Product
+  - name: program
+    label: Program
     format: yml
     extension: yml
-    folder: data/products/
+    folder: data/programs/
     create: true
     slug: '{{title}}'
     fields:
@@ -20,8 +20,8 @@ collections:
       - {label: Publish Date, name: date, widget: datetime}
       - {label: Image, name: image, widget: image, required: true}
 
-      - {label: Weight, name: weight, widget: number}
-      - {label: Price, name: price, widget: number}
+      - {label: Location, name: location, widget: string}
+      - {label: Time, name: time, widget: string}
       - {label: Body, name: body, widget: markdown}
 
 #markdown middleman blog example
@@ -55,7 +55,28 @@ collections:
           - label: Story
             name: story
             widget: markdown
-
+      - file: "data/pages/about.yml"
+        label: About
+        name: about
+        fields:
+          - label: Body
+            name: body
+            widget: markdown
+      - file: "data/pages/donate.yml"
+        label: Donate
+        name: donate
+        fields:
+          - label: Body
+            name: body
+            widget: markdown
+      - file: "data/pages/board.yml"
+        label: Board
+        name: board
+        fields:
+          - label: Body
+            name: body
+            widget: markdown
+            
   - name: settings
     label: Settings
     files:

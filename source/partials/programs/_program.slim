@@ -1,0 +1,10 @@
+//link to program by converting the title to a slug
+.program
+  = link_to '/program/' + program.title.parameterize + '/'
+    .program-image
+      = image_tag program.image
+    .program-content
+      .title
+        h3 = program.title
+      .location
+        p = program.location

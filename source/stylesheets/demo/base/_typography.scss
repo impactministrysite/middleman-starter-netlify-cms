@@ -1,3 +1,8 @@
+@import url(https://fonts.googleapis.com/css2?family=EB+Garamond:wght@700&display=swap);
+
+// Font Variables
+$eb-garamond: 'EB Garamond', serif;
+
 body {
   font-family: -apple-system, BlinkMacSystemFont, "Avenir Next", "Avenir", "Segoe UI", "Lucida Grande", "Helvetica Neue", "Helvetica", "Fira Sans", "Roboto", "Noto", "Droid Sans", "Cantarell", "Oxygen", "Ubuntu", "Franklin Gothic Medium", "Century Gothic", "Liberation Sans", sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -11,6 +16,7 @@ p {
 }
 
 h1, h2, h3 {
+  font-family:  $eb-garamond;
   line-height: 1.2;
 }
 h1 {
@@ -20,7 +26,7 @@ h1 {
 
 
 h2 {
-  font-size: 32px;
+  font-size: 36px;
   font-weight: 700;
 }
 
@@ -55,4 +61,3 @@ h3 {
     line-height: 24px;
   }
 }
-

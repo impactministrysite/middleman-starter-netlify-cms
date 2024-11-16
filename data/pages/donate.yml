@@ -1,0 +1,50 @@
+body: >-
+  ## **Thank you for your support.**
+
+
+  We now have options available for supporters to provide tax deductible donations through PayPal, Venmo, or by sending a check. Here is more information on how you are able to provide a tax-deductible love offering through one of the following options:<br><br>
+
+
+  > *We want to thank you for taking the time to consider partnering with Impact Ministry to make a difference in our community!* 
+
+
+  <br>**To donate by check:**
+
+
+  For more information about donating by check, please call Pastor Perez: (805) 448-9096<br><br>
+
+
+  **To donate online by Venmo:**
+
+
+  Using the mobile app, please send to **@Impact-Ministry-1**
+
+
+  From a computer browser, please “Join Impact on Venmo” by going to **[www.venmo.com/Impact-Ministry-1](https://venmo.com/Impact-Ministry-1)**
+
+
+  For more information on Venmo, please see **[Venmo's website](https://venmo.com/)**.<br><br>
+
+
+  **To donate by PayPal:**
+
+
+  Using the button below, please specify an amount and send to Impact Ministry.
+
+
+  For more information on PayPal, please see **[PayPal’s website](https://www.paypal.com/us/home)**.*<br>*<br>
+
+
+  <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+
+  <input type="hidden" name="cmd" value="_donations" />
+
+  <input type="hidden" name="business" value="HSEGR75SFJ3WA" />
+
+  <input type="hidden" name="currency_code" value="USD" />
+
+  <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Donate with PayPal button" />
+
+  <img alt="" border="0" src="https://www.paypal.com/en_US/i/scr/pixel.gif" width="10" height="10" />
+
+  </form>

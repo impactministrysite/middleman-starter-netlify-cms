@@ -1,11 +1,11 @@
 .homepage-story {
-  background: $secondary-color;
+  background: $primary-color;
 
   .story-content {
     @extend %column;
     @extend %col-sm-8;
-    padding-top: 60px;
-    padding-bottom: 60px;
+    padding-top: 80px;
+    padding-bottom: 80px;
     color: rgba(255, 255, 255, 1);
 
     h2 {
@@ -18,7 +18,10 @@
       margin: 0;
       font-size: 24px;
       line-height: 36px;
-      
+    }
+    
+    p a {
+      color: white;
     }
 
     @media screen and(max-width: $screen-xs-max){

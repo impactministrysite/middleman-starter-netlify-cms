@@ -1,0 +1,11 @@
+.program-detail
+  .image style=background_image(image_path(program.image))
+  .content
+    .meta
+      h1 = program.title
+
+      .location
+        span = program.location.to_s
+
+    .body
+      = markdown program.body
