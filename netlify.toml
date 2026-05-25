@@ -1,0 +1,7 @@
+[build]
+  command   = "bundle exec middleman build"
+  publish   = "build"
+
+[build.environment]
+  RUBY_VERSION = "3.3.5"
+  RUBYOPT      = "-Eutf-8:utf-8 -r./yaml_time_patch"
